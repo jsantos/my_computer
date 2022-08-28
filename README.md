@@ -3,7 +3,7 @@
 
 ### Execute the sample program
 ```shell
-	ruby program.rb
+  ruby program.rb
 ```
 
 ### Contents of the sample program
