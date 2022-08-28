@@ -12,8 +12,10 @@ class Stack
 
   def push(value)
     if @data.none? { |element| !element.nil? }
+      # When the stack is empty (no non-nil elements), we put the value directly
+      # on the head of the stack
       @data[0] = value
-    else
+    else # Otherwise we put it on the next available address (pointer + 1)
       @data[@pointer + 1] = value
     end
 
