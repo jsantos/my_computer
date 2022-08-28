@@ -32,7 +32,6 @@ def main
   computer.insert('STOP')
 
   computer.set_address(MAIN_BEGIN).execute
-
 end
 
 main()
